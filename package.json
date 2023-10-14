@@ -1,0 +1,27 @@
+{
+  "name": "staking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "set HTTPS=true&&nodemon index.js",
+    "dev": "nodemon index.js",
+    "prod": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "borsh": "^0.7.0",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.7",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "forever": "^4.0.2",
+    "mongoose": "^6.4.7",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}

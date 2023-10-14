@@ -1,0 +1,7 @@
+nohup npm run start </dev/null 2>&1 & (Run with out terminal)
+nohup npm start –production &
+
+sudo npm install -g forever
+forver start >path to your server javascript>
+forever stop
+forver restartall
